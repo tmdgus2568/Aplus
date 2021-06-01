@@ -13,6 +13,7 @@
 		592EA85126652F32004CD564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EA84F26652F32004CD564 /* Main.storyboard */; };
 		592EA85326652F33004CD564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85226652F33004CD564 /* Assets.xcassets */; };
 		592EA85626652F33004CD564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85426652F33004CD564 /* LaunchScreen.storyboard */; };
+		592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA862266548F5004CD564 /* Extension_UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		592EA85226652F33004CD564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592EA85526652F33004CD564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592EA85726652F33004CD564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592EA862266548F5004CD564 /* Extension_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				592EA85226652F33004CD564 /* Assets.xcassets */,
 				592EA85426652F33004CD564 /* LaunchScreen.storyboard */,
 				592EA85726652F33004CD564 /* Info.plist */,
+				592EA862266548F5004CD564 /* Extension_UIView.swift */,
 			);
 			path = Aplus;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				592EA84E26652F32004CD564 /* ViewController.swift in Sources */,
 				592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */,
+				592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */,
 				592EA84C26652F32004CD564 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
