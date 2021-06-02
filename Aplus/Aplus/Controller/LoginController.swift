@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
     var isCheckedAuto:Bool! = true;
 
     @IBOutlet weak var btnAutoLogin: UIButton!
@@ -22,14 +22,23 @@ class ViewController: UIViewController {
     @IBAction func didTapAutoLogin(_ sender: UIButton) {
         if isCheckedAuto{
             sender.setImage(UIImage(systemName: "square"), for: .normal)
+            sender.tintColor = .black
             
             isCheckedAuto = false
         }
 
         else{
             sender.setImage(UIImage(systemName: "checkmark.square"), for: .normal)
+            sender.tintColor = .black
             isCheckedAuto = true
         }
+    }
+    
+    // 화면 전환 시, fullScreen 으로 표현
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let navigationController = segue.destination
+        navigationController.modalPresentationStyle = .fullScreen
     }
     
 }
