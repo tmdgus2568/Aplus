@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCA4266607C8003FA643 /* SelectRoleController.swift */; };
 		5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */; };
+		5925CCAF26680042003FA643 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCAE26680042003FA643 /* SignUpController.swift */; };
 		592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84926652F32004CD564 /* AppDelegate.swift */; };
 		592EA84C26652F32004CD564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84B26652F32004CD564 /* SceneDelegate.swift */; };
 		592EA84E26652F32004CD564 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84D26652F32004CD564 /* LoginController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		5925CCA4266607C8003FA643 /* SelectRoleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoleController.swift; sourceTree = "<group>"; };
 		5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceController.swift; sourceTree = "<group>"; };
+		5925CCAE26680042003FA643 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		592EA84626652F32004CD564 /* Aplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592EA84926652F32004CD564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592EA84B26652F32004CD564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 				592EA84D26652F32004CD564 /* LoginController.swift */,
 				5925CCA4266607C8003FA643 /* SelectRoleController.swift */,
 				5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */,
+				5925CCAE26680042003FA643 /* SignUpController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */,
 				5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */,
+				5925CCAF26680042003FA643 /* SignUpController.swift in Sources */,
 				592EA84E26652F32004CD564 /* LoginController.swift in Sources */,
 				592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */,
 				592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */,

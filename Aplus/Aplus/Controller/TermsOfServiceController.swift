@@ -17,12 +17,13 @@ class TermsOfServiceController: UIViewController{
         super.viewDidLoad()
         
         self.navigationController?.navigationBar.tintColor = .black
+        // back버튼의 title이지만 backItem이 아닌 topItem의 title로 설정해야함
         self.navigationController?.navigationBar.topItem?.title = ""
         self.title = "약관 동의"
         alert = UIAlertController(title: "알림", message: "이용 약관 동의를 체크해 주세요.", preferredStyle: UIAlertController.Style.alert)
         okAction = UIAlertAction(title: "확인", style: .default)
         alert.addAction(okAction)
-        
+       
     }
     
     // 체크시 버튼 이미지 변경 
@@ -44,6 +45,7 @@ class TermsOfServiceController: UIViewController{
     @IBAction func onClickBtnNext(_ sender: Any) {
         // 이용약관 동의 체크버튼을 누르지 않고
         // 다음으로 버튼을 누르려 할 시 알림창
+        
         if !isCheckedAgree{
             present(alert, animated: true, completion: nil)
             
