@@ -10,6 +10,8 @@
 		5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCA4266607C8003FA643 /* SelectRoleController.swift */; };
 		5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */; };
 		5925CCAF26680042003FA643 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCAE26680042003FA643 /* SignUpController.swift */; };
+		5925CCB4266911C6003FA643 /* AcademyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCB3266911C6003FA643 /* AcademyListController.swift */; };
+		5925CCB726695CCF003FA643 /* CustomAcedemyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5925CCB626695CCF003FA643 /* CustomAcedemyCell.swift */; };
 		592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84926652F32004CD564 /* AppDelegate.swift */; };
 		592EA84C26652F32004CD564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84B26652F32004CD564 /* SceneDelegate.swift */; };
 		592EA84E26652F32004CD564 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA84D26652F32004CD564 /* LoginController.swift */; };
@@ -17,12 +19,15 @@
 		592EA85326652F33004CD564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85226652F33004CD564 /* Assets.xcassets */; };
 		592EA85626652F33004CD564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85426652F33004CD564 /* LaunchScreen.storyboard */; };
 		592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA862266548F5004CD564 /* Extension_UIView.swift */; };
+		5968E4F9266E0F0A00C088F4 /* Extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5925CCA4266607C8003FA643 /* SelectRoleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoleController.swift; sourceTree = "<group>"; };
 		5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceController.swift; sourceTree = "<group>"; };
 		5925CCAE26680042003FA643 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		5925CCB3266911C6003FA643 /* AcademyListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyListController.swift; sourceTree = "<group>"; };
+		5925CCB626695CCF003FA643 /* CustomAcedemyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAcedemyCell.swift; sourceTree = "<group>"; };
 		592EA84626652F32004CD564 /* Aplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592EA84926652F32004CD564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592EA84B26652F32004CD564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +37,7 @@
 		592EA85526652F33004CD564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592EA85726652F33004CD564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		592EA862266548F5004CD564 /* Extension_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIView.swift; sourceTree = "<group>"; };
+		5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 				5925CCA4266607C8003FA643 /* SelectRoleController.swift */,
 				5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */,
 				5925CCAE26680042003FA643 /* SignUpController.swift */,
+				5925CCB3266911C6003FA643 /* AcademyListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -83,6 +90,8 @@
 				592EA85426652F33004CD564 /* LaunchScreen.storyboard */,
 				592EA85726652F33004CD564 /* Info.plist */,
 				592EA862266548F5004CD564 /* Extension_UIView.swift */,
+				5925CCB626695CCF003FA643 /* CustomAcedemyCell.swift */,
+				5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */,
 			);
 			path = Aplus;
 			sourceTree = "<group>";
@@ -159,6 +168,9 @@
 			files = (
 				5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */,
 				5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */,
+				5925CCB726695CCF003FA643 /* CustomAcedemyCell.swift in Sources */,
+				5968E4F9266E0F0A00C088F4 /* Extension_UIColor.swift in Sources */,
+				5925CCB4266911C6003FA643 /* AcademyListController.swift in Sources */,
 				5925CCAF26680042003FA643 /* SignUpController.swift in Sources */,
 				592EA84E26652F32004CD564 /* LoginController.swift in Sources */,
 				592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */,
@@ -313,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXJ5R65TD5;
 				INFOPLIST_FILE = Aplus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXJ5R65TD5;
 				INFOPLIST_FILE = Aplus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
