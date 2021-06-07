@@ -19,7 +19,9 @@
 		592EA85326652F33004CD564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85226652F33004CD564 /* Assets.xcassets */; };
 		592EA85626652F33004CD564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EA85426652F33004CD564 /* LaunchScreen.storyboard */; };
 		592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592EA862266548F5004CD564 /* Extension_UIView.swift */; };
-		5968E4F9266E0F0A00C088F4 /* Extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */; };
+		5968E4FB266E2EEB00C088F4 /* ClassListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FA266E2EEB00C088F4 /* ClassListController.swift */; };
+		5968E4FD266E300400C088F4 /* CustomClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FC266E300400C088F4 /* CustomClassCell.swift */; };
+		5968E4FF266EA8C400C088F4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FE266EA8C400C088F4 /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +39,9 @@
 		592EA85526652F33004CD564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592EA85726652F33004CD564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		592EA862266548F5004CD564 /* Extension_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIView.swift; sourceTree = "<group>"; };
-		5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIColor.swift; sourceTree = "<group>"; };
+		5968E4FA266E2EEB00C088F4 /* ClassListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListController.swift; sourceTree = "<group>"; };
+		5968E4FC266E300400C088F4 /* CustomClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClassCell.swift; sourceTree = "<group>"; };
+		5968E4FE266EA8C400C088F4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */,
 				5925CCAE26680042003FA643 /* SignUpController.swift */,
 				5925CCB3266911C6003FA643 /* AcademyListController.swift */,
+				5968E4FA266E2EEB00C088F4 /* ClassListController.swift */,
+				5968E4FE266EA8C400C088F4 /* MainTabController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,7 +97,7 @@
 				592EA85726652F33004CD564 /* Info.plist */,
 				592EA862266548F5004CD564 /* Extension_UIView.swift */,
 				5925CCB626695CCF003FA643 /* CustomAcedemyCell.swift */,
-				5968E4F8266E0F0A00C088F4 /* Extension_UIColor.swift */,
+				5968E4FC266E300400C088F4 /* CustomClassCell.swift */,
 			);
 			path = Aplus;
 			sourceTree = "<group>";
@@ -168,8 +174,10 @@
 			files = (
 				5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */,
 				5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */,
+				5968E4FF266EA8C400C088F4 /* MainTabController.swift in Sources */,
+				5968E4FB266E2EEB00C088F4 /* ClassListController.swift in Sources */,
+				5968E4FD266E300400C088F4 /* CustomClassCell.swift in Sources */,
 				5925CCB726695CCF003FA643 /* CustomAcedemyCell.swift in Sources */,
-				5968E4F9266E0F0A00C088F4 /* Extension_UIColor.swift in Sources */,
 				5925CCB4266911C6003FA643 /* AcademyListController.swift in Sources */,
 				5925CCAF26680042003FA643 /* SignUpController.swift in Sources */,
 				592EA84E26652F32004CD564 /* LoginController.swift in Sources */,

@@ -17,18 +17,14 @@ class AcademyListController: UIViewController, UITableViewDataSource, UITabBarDe
     let cellNames:Array<String> = ["새싹수학학원", "예지컴퓨터학원","소현수학학원"]
     let cellStatus:Array<String> = ["승인대기","거절","승인"]
     var btnLeftBar:UIBarButtonItem!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        btnLeftBar = UIBarButtonItem.init(title:"  학원 선택", style: .done, target: self, action: nil)
-        btnLeftBar.tintColor = .black
-        self.navigationItem.leftItemsSupplementBackButton = true
-        navigationItem.leftBarButtonItem = btnLeftBar
+        self.title = "학원 선택"
         self.navigationController?.navigationBar.barTintColor = .white
 
         tableAcademy.delegate = self
         tableAcademy.dataSource = self
-        
    
     }
     
@@ -70,8 +66,9 @@ class AcademyListController: UIViewController, UITableViewDataSource, UITabBarDe
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 100
     }
     
-  
+
+    
 }
