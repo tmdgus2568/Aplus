@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,9 +22,14 @@
 		5968E4FB266E2EEB00C088F4 /* ClassListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FA266E2EEB00C088F4 /* ClassListController.swift */; };
 		5968E4FD266E300400C088F4 /* CustomClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FC266E300400C088F4 /* CustomClassCell.swift */; };
 		5968E4FF266EA8C400C088F4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968E4FE266EA8C400C088F4 /* MainTabController.swift */; };
+		5981709D266F6CD600DA32C2 /* AttendanceTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */; };
+		5981709F266FF0CA00DA32C2 /* CustomAttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */; };
+		598170A12671538A00DA32C2 /* Balloon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598170A02671538A00DA32C2 /* Balloon.xib */; };
+		8B6C2DAA617F13DBD3D50A9B /* Pods_Aplus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10D7E1181C681A107B0E7FD8 /* Pods-Aplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplus.debug.xcconfig"; path = "Target Support Files/Pods-Aplus/Pods-Aplus.debug.xcconfig"; sourceTree = "<group>"; };
 		5925CCA4266607C8003FA643 /* SelectRoleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoleController.swift; sourceTree = "<group>"; };
 		5925CCA92667E1A1003FA643 /* TermsOfServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceController.swift; sourceTree = "<group>"; };
 		5925CCAE26680042003FA643 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -42,6 +47,11 @@
 		5968E4FA266E2EEB00C088F4 /* ClassListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListController.swift; sourceTree = "<group>"; };
 		5968E4FC266E300400C088F4 /* CustomClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClassCell.swift; sourceTree = "<group>"; };
 		5968E4FE266EA8C400C088F4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceTabController.swift; sourceTree = "<group>"; };
+		5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAttendanceCell.swift; sourceTree = "<group>"; };
+		598170A02671538A00DA32C2 /* Balloon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Balloon.xib; sourceTree = "<group>"; };
+		75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aplus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF122026867E870B4D3C63BA /* Pods-Aplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplus.release.xcconfig"; path = "Target Support Files/Pods-Aplus/Pods-Aplus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +59,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6C2DAA617F13DBD3D50A9B /* Pods_Aplus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B20738E08575EB53A8B679C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5925CCAC2667F879003FA643 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +84,7 @@
 				5925CCB3266911C6003FA643 /* AcademyListController.swift */,
 				5968E4FA266E2EEB00C088F4 /* ClassListController.swift */,
 				5968E4FE266EA8C400C088F4 /* MainTabController.swift */,
+				5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -74,6 +94,8 @@
 			children = (
 				592EA84826652F32004CD564 /* Aplus */,
 				592EA84726652F32004CD564 /* Products */,
+				BAD66AFBAC1AAE5C7489245B /* Pods */,
+				0B20738E08575EB53A8B679C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +120,19 @@
 				592EA862266548F5004CD564 /* Extension_UIView.swift */,
 				5925CCB626695CCF003FA643 /* CustomAcedemyCell.swift */,
 				5968E4FC266E300400C088F4 /* CustomClassCell.swift */,
+				5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */,
+				598170A02671538A00DA32C2 /* Balloon.xib */,
 			);
 			path = Aplus;
+			sourceTree = "<group>";
+		};
+		BAD66AFBAC1AAE5C7489245B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D7E1181C681A107B0E7FD8 /* Pods-Aplus.debug.xcconfig */,
+				EF122026867E870B4D3C63BA /* Pods-Aplus.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 592EA85A26652F33004CD564 /* Build configuration list for PBXNativeTarget "Aplus" */;
 			buildPhases = (
+				96EF9E954CC9B24204BC1104 /* [CP] Check Pods Manifest.lock */,
 				592EA84226652F32004CD564 /* Sources */,
 				592EA84326652F32004CD564 /* Frameworks */,
 				592EA84426652F32004CD564 /* Resources */,
+				3CD1E63474A50E0A1F97E0BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,10 +197,53 @@
 				592EA85626652F33004CD564 /* LaunchScreen.storyboard in Resources */,
 				592EA85326652F33004CD564 /* Assets.xcassets in Resources */,
 				592EA85126652F32004CD564 /* Main.storyboard in Resources */,
+				598170A12671538A00DA32C2 /* Balloon.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CD1E63474A50E0A1F97E0BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aplus/Pods-Aplus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aplus/Pods-Aplus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aplus/Pods-Aplus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96EF9E954CC9B24204BC1104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aplus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		592EA84226652F32004CD564 /* Sources */ = {
@@ -175,10 +253,12 @@
 				5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */,
 				5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */,
 				5968E4FF266EA8C400C088F4 /* MainTabController.swift in Sources */,
+				5981709F266FF0CA00DA32C2 /* CustomAttendanceCell.swift in Sources */,
 				5968E4FB266E2EEB00C088F4 /* ClassListController.swift in Sources */,
 				5968E4FD266E300400C088F4 /* CustomClassCell.swift in Sources */,
 				5925CCB726695CCF003FA643 /* CustomAcedemyCell.swift in Sources */,
 				5925CCB4266911C6003FA643 /* AcademyListController.swift in Sources */,
+				5981709D266F6CD600DA32C2 /* AttendanceTabController.swift in Sources */,
 				5925CCAF26680042003FA643 /* SignUpController.swift in Sources */,
 				592EA84E26652F32004CD564 /* LoginController.swift in Sources */,
 				592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */,
@@ -327,6 +407,7 @@
 		};
 		592EA85B26652F33004CD564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D7E1181C681A107B0E7FD8 /* Pods-Aplus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,6 +428,7 @@
 		};
 		592EA85C26652F33004CD564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF122026867E870B4D3C63BA /* Pods-Aplus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

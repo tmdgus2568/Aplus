@@ -39,4 +39,11 @@ extension UIView {
         }
     }
     
+    func loopDescendantViews(_ closure: (_ subView: UIView) -> Void) {
+        for v in subviews {
+            closure(v)
+            v.loopDescendantViews(closure)
+        }
+    }
+    
 }
