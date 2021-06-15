@@ -25,6 +25,8 @@
 		5981709D266F6CD600DA32C2 /* AttendanceTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */; };
 		5981709F266FF0CA00DA32C2 /* CustomAttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */; };
 		598170A12671538A00DA32C2 /* Balloon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598170A02671538A00DA32C2 /* Balloon.xib */; };
+		598170A32672831100DA32C2 /* QuizTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170A22672831100DA32C2 /* QuizTabController.swift */; };
+		598170A52672832F00DA32C2 /* CustomQuizListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170A42672832F00DA32C2 /* CustomQuizListCell.swift */; };
 		8B6C2DAA617F13DBD3D50A9B /* Pods_Aplus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceTabController.swift; sourceTree = "<group>"; };
 		5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAttendanceCell.swift; sourceTree = "<group>"; };
 		598170A02671538A00DA32C2 /* Balloon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Balloon.xib; sourceTree = "<group>"; };
+		598170A22672831100DA32C2 /* QuizTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTabController.swift; sourceTree = "<group>"; };
+		598170A42672832F00DA32C2 /* CustomQuizListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQuizListCell.swift; sourceTree = "<group>"; };
 		75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aplus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF122026867E870B4D3C63BA /* Pods-Aplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplus.release.xcconfig"; path = "Target Support Files/Pods-Aplus/Pods-Aplus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +89,7 @@
 				5968E4FA266E2EEB00C088F4 /* ClassListController.swift */,
 				5968E4FE266EA8C400C088F4 /* MainTabController.swift */,
 				5981709C266F6CD600DA32C2 /* AttendanceTabController.swift */,
+				598170A22672831100DA32C2 /* QuizTabController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 				5968E4FC266E300400C088F4 /* CustomClassCell.swift */,
 				5981709E266FF0CA00DA32C2 /* CustomAttendanceCell.swift */,
 				598170A02671538A00DA32C2 /* Balloon.xib */,
+				598170A42672832F00DA32C2 /* CustomQuizListCell.swift */,
 			);
 			path = Aplus;
 			sourceTree = "<group>";
@@ -253,9 +259,11 @@
 				5925CCAA2667E1A1003FA643 /* TermsOfServiceController.swift in Sources */,
 				5925CCA5266607C8003FA643 /* SelectRoleController.swift in Sources */,
 				5968E4FF266EA8C400C088F4 /* MainTabController.swift in Sources */,
+				598170A52672832F00DA32C2 /* CustomQuizListCell.swift in Sources */,
 				5981709F266FF0CA00DA32C2 /* CustomAttendanceCell.swift in Sources */,
 				5968E4FB266E2EEB00C088F4 /* ClassListController.swift in Sources */,
 				5968E4FD266E300400C088F4 /* CustomClassCell.swift in Sources */,
+				598170A32672831100DA32C2 /* QuizTabController.swift in Sources */,
 				5925CCB726695CCF003FA643 /* CustomAcedemyCell.swift in Sources */,
 				5925CCB4266911C6003FA643 /* AcademyListController.swift in Sources */,
 				5981709D266F6CD600DA32C2 /* AttendanceTabController.swift in Sources */,

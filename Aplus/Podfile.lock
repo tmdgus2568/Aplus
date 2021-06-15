@@ -1,16 +1,19 @@
 PODS:
   - FSCalendar (2.8.2)
+  - SideMenu (6.5.0)
   - SVProgressHUD (2.2.6):
     - SVProgressHUD/Core (= 2.2.6)
   - SVProgressHUD/Core (2.2.6)
 
 DEPENDENCIES:
   - FSCalendar
+  - SideMenu
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
 
 SPEC REPOS:
   trunk:
     - FSCalendar
+    - SideMenu
 
 EXTERNAL SOURCES:
   SVProgressHUD:
@@ -23,8 +26,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
 
-PODFILE CHECKSUM: d109661b5a4772c6156448a1250690c95c72698c
+PODFILE CHECKSUM: 310c624aab25c26d8a76ab30ad477792abbbff20
 
 COCOAPODS: 1.10.1

@@ -9,6 +9,7 @@ target 'Aplus' do
 
   pod 'FSCalendar'
   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+  pod 'SideMenu'
 
 
 end

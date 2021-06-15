@@ -14,8 +14,8 @@ class AttendanceTabController:UIViewController, UITableViewDataSource, UITabBarD
     
     @IBOutlet weak var lbDate: UILabel!
     
-    @IBOutlet weak var btnNext: UIButton!
-    @IBOutlet weak var btnPrev: UIButton!
+//    @IBOutlet weak var btnNext: UIButton!
+//    @IBOutlet weak var btnPrev: UIButton!
     @IBOutlet weak var tableAttendance: UITableView!
     @IBOutlet weak var btnCalendar: UIButton!
     @IBOutlet weak var fsCalendar: FSCalendar!
@@ -86,17 +86,19 @@ class AttendanceTabController:UIViewController, UITableViewDataSource, UITabBarD
     // 달력 날짜 선택 시, lbDate가 바뀜
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
         
+        self.lbDate.text = self.dateFormatter.string(from: date)
+        
         // 날짜선택 시, 새로 데이터를 불러와야하므로 시간이 다소 걸릴 수 있는
         // 경우를 대비하여 progress 생성
-        SVProgressHUD.show(withStatus: "Wait!")
-        DispatchQueue.global(qos: .userInitiated).async {
-            self.lbDate.text = self.dateFormatter.string(from: date)
+//        SVProgressHUD.show(withStatus: "Wait!")
+//        DispatchQueue.global(qos: .userInitiated).async {
+//            self.lbDate.text = self.dateFormatter.string(from: date)
 
             // 위 코드가 완료되면 dismiss
-            DispatchQueue.main.async {
-                SVProgressHUD.dismiss()
-            }
-        }
+//            DispatchQueue.main.async {
+//                SVProgressHUD.dismiss()
+//            }
+//        }
        
         
     }
@@ -127,7 +129,7 @@ class AttendanceTabController:UIViewController, UITableViewDataSource, UITabBarD
             
         }
     }
-
+    
     
     
     
