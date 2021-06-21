@@ -34,6 +34,16 @@ class QuizTabControllder:UIViewController, UITableViewDelegate, UITableViewDataS
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let nextViewController = segue.destination as? QuizSolveController else {
+            return
+        }
+        if sender is CustomQuizListCell{
+            let cell = sender as! CustomQuizListCell
+            nextViewController.stringTitle = cell.lbQuizTitle.text
+            nextViewController.stringDeadline = cell.lbQuizDeadline.text
+        }
+    }
     
     
 }

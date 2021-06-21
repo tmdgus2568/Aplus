@@ -13,7 +13,9 @@ class QuizSolveController:UIViewController, UITableViewDelegate, UITableViewData
     let cellType:Array<String> = ["객관식","객관식"]
     
     
-   
+    var stringTitle:String?
+    var stringDeadline:String?
+    
     @IBOutlet weak var tableQuestion: UITableView!
     @IBOutlet weak var viewQuizStatus: UIView!
     @IBOutlet weak var lbQuizDeadline: UILabel!
@@ -21,6 +23,9 @@ class QuizSolveController:UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         tableQuestion.delegate = self
         tableQuestion.dataSource = self
+        
+        (stringTitle==nil) ? (lbQuizTitle.text=""):(lbQuizTitle.text=stringTitle)
+        (stringDeadline==nil) ? (lbQuizDeadline.text=""):(lbQuizDeadline.text=stringDeadline)
     }
     
     
@@ -83,8 +88,7 @@ class QuizSolveController:UIViewController, UITableViewDelegate, UITableViewData
     @objc func onClickOption(_sender:UITapGestureRecognizer!){
         print(_sender.view!.tag)
         // _sender.view ==> viewXOption (X = 1,2,3,4)
-        let rowNum = _sender.view!.tag/10
-        let optionNum = _sender.view!.tag%10
+    
         let cell = tableQuestion.cellForRow(at: IndexPath(row: _sender.view!.tag, section: 0) as IndexPath) as! CustomQuizQuestionList
         
         if _sender.view! == cell.view1Option{
