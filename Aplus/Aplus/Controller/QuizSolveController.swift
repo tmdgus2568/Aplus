@@ -8,9 +8,9 @@
 import UIKit
 
 class QuizSolveController:UIViewController, UITableViewDelegate, UITableViewDataSource{
-    let cellTitle:Array<String> = ["다음 중 과일이 아닌것은?", "다음 중 과목이 아닌 것은?"]
-    let cellAddImage:Array<Bool> = [false, false]
-    let cellType:Array<String> = ["객관식","객관식"]
+    var cellTitle:Array<String> = ["다음 중 과일이 아닌것은?", "다음 중 과목이 아닌 것은?"]
+    var cellAddImage:Array<Bool> = [false, false]
+    var cellType:Array<String> = ["객관식","객관식"]
     
     
     var stringTitle:String?
