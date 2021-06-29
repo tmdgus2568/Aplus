@@ -31,6 +31,8 @@
 		598170AB267B11EE00DA32C2 /* CustomQuizQuestionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170AA267B11EE00DA32C2 /* CustomQuizQuestionListCell.swift */; };
 		598170AD2682516800DA32C2 /* QATabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170AC2682516800DA32C2 /* QATabController.swift */; };
 		598170AF2682522300DA32C2 /* CustomQuestionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170AE2682522300DA32C2 /* CustomQuestionListCell.swift */; };
+		598170B1268B6E1B00DA32C2 /* CustomCommentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170B0268B6E1B00DA32C2 /* CustomCommentListCell.swift */; };
+		598170B3268B774600DA32C2 /* QAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598170B2268B774600DA32C2 /* QAController.swift */; };
 		8B6C2DAA617F13DBD3D50A9B /* Pods_Aplus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		598170AA267B11EE00DA32C2 /* CustomQuizQuestionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQuizQuestionListCell.swift; sourceTree = "<group>"; };
 		598170AC2682516800DA32C2 /* QATabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QATabController.swift; sourceTree = "<group>"; };
 		598170AE2682522300DA32C2 /* CustomQuestionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQuestionListCell.swift; sourceTree = "<group>"; };
+		598170B0268B6E1B00DA32C2 /* CustomCommentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCommentListCell.swift; sourceTree = "<group>"; };
+		598170B2268B774600DA32C2 /* QAController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAController.swift; sourceTree = "<group>"; };
 		75EF994D475CA3D8E09A37D4 /* Pods_Aplus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aplus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF122026867E870B4D3C63BA /* Pods-Aplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplus.release.xcconfig"; path = "Target Support Files/Pods-Aplus/Pods-Aplus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +104,7 @@
 				598170A22672831100DA32C2 /* QuizTabController.swift */,
 				598170A6267B0EB000DA32C2 /* QuizSolveController.swift */,
 				598170AC2682516800DA32C2 /* QATabController.swift */,
+				598170B2268B774600DA32C2 /* QAController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				598170A42672832F00DA32C2 /* CustomQuizListCell.swift */,
 				598170AA267B11EE00DA32C2 /* CustomQuizQuestionListCell.swift */,
 				598170AE2682522300DA32C2 /* CustomQuestionListCell.swift */,
+				598170B0268B6E1B00DA32C2 /* CustomCommentListCell.swift */,
 			);
 			path = Aplus;
 			sourceTree = "<group>";
@@ -283,11 +289,13 @@
 				5981709D266F6CD600DA32C2 /* AttendanceTabController.swift in Sources */,
 				598170AD2682516800DA32C2 /* QATabController.swift in Sources */,
 				598170AF2682522300DA32C2 /* CustomQuestionListCell.swift in Sources */,
+				598170B3268B774600DA32C2 /* QAController.swift in Sources */,
 				5925CCAF26680042003FA643 /* SignUpController.swift in Sources */,
 				592EA84E26652F32004CD564 /* LoginController.swift in Sources */,
 				592EA84A26652F32004CD564 /* AppDelegate.swift in Sources */,
 				592EA863266548F5004CD564 /* Extension_UIView.swift in Sources */,
 				592EA84C26652F32004CD564 /* SceneDelegate.swift in Sources */,
+				598170B1268B6E1B00DA32C2 /* CustomCommentListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
